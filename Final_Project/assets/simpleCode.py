@@ -4,6 +4,7 @@ from PIL import Image
 import numpy as np
 from sklearn.metrics import mean_squared_error
 
+
 def readImageData(rootpath):
     '''Reads data 
     Arguments: path to the image, for example './Training'
@@ -18,12 +19,12 @@ def readImageData(rootpath):
     next(gtReader)
     # loop over all images in current annotations file
     for row in gtReader:
-            img=Image.open(prefix + row[0])  # the 1th column is the filename
-            # preprocesing image, here we resize the image into a smaller one
-            img=img.resize((32,32), Image.BICUBIC)  
-            img=np.array(img)
-            images.append(img) 
-            output_1.append(row[1]) # the 8th column is the label
+        img = Image.open(prefix + row[0])  # the 1th column is the filename
+        # preprocesing image, here we resize the image into a smaller one
+        img = img.resize((32,32), Image.BICUBIC)
+        img = np.array(img)
+        images.append(img)
+        output_1.append(row[1]) # the 8th column is the label
     
     gtFile.close()
     return images, output_1

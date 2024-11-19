@@ -1,3 +1,4 @@
 .ipynb_checkpoints/
 cisc3023_ml_venv/
 .idea/
+__pycache__/
