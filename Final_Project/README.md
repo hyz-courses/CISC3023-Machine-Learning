@@ -27,4 +27,6 @@ All the required packages are listed in [requirements.txt](./requirements.txt).
 2. If you are opening from Moodle's submission zip, you can ignore this step. However, if you are opening from github, you need to download the models from Google Drive since they are too large to be uploaded to github:
 https://drive.google.com/drive/folders/1v_wMipy_cq6g4gG5CH8lL3B7zYcoTo04?usp=sharing
 
+Moreover, you need to move all the `.sav` files into the `models` folder, which sould be at the same level as `main.ipynb`.
+
 3. To view and run code, open jupyter notebook and view [main.ipynb](./main.ipynb). You could also view the PDF version of the code at [code_preview.pdf](./code_preview.pdf).
