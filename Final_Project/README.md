@@ -29,4 +29,4 @@ https://drive.google.com/drive/folders/1v_wMipy_cq6g4gG5CH8lL3B7zYcoTo04?usp=sha
 
 Moreover, you need to move all the `.sav` files into the `models` folder, which sould be at the same level as `main.ipynb`.
 
-3. To view and run code, open jupyter notebook and view [main.ipynb](./main.ipynb). You could also view the PDF version of the code at [code_preview.pdf](./code_preview.pdf).
+3. To view and run code, open jupyter notebook and view [main.ipynb](./main.ipynb). You could also view the PDF version of the code at [code_preview.pdf](./code_preview.pdf), or the HTML version at [code_preview.html](./code_preview.html).
