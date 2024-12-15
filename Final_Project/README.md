@@ -10,6 +10,16 @@ Code preview:
 - [HTML Version](code_preview.html) 
 - [PDF Version](code_preview.pdf)
 
+## Models
+*Grid Search Object Lists*
+- [`RandomForestRegressor_nest-maxd_17328034630916922.sav`](./model/RandomForestRegressor_nest-maxd_17328034630916922.sav) 
+- [`RandomForestRegressor_mins-minl_173285867054318.sav`](./model/RandomForestRegressor_mins-minl_173285867054318.sav) 
+- [`SVR_krnl-C_1732885935665518.sav`](./models/SVR_krnl-C_1732885935665518.sav)
+- [`SVR_epsl-gamm_1732886643413752.sav`](./models/SVR_epsl-gamm_1732886643413752.sav)
+
+*Best Models*
+- [`best_model_rfr_1733156550837645.sav`](./models/best_model_rfr_1733156550837645.sav)
+- [`best_model_svr_1733156169715915.sav`](./models/best_model_svr_1733156169715915.sav)
 
 ## Steps to run code
 1. Install all the dependencies and make sure it is in the correct conda virtual environment.
